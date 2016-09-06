@@ -15,13 +15,13 @@ var http_1 = require('@angular/http');
 // Imports for loading & configuring the in-memory web api
 var angular2_in_memory_web_api_1 = require('angular2-in-memory-web-api');
 var in_memory_data_service_1 = require('./in-memory-data.service');
-var app_component_1 = require('./app.component');
-var dashboard_component_1 = require('./dashboard.component');
-var heroes_component_1 = require('./heroes.component');
-var hero_detail_component_1 = require('./hero-detail.component');
+var app_component_1 = require('./app-component/app.component');
+var dashboard_component_1 = require('./dashboard/dashboard.component');
+var heroes_component_1 = require('./heroes-component/heroes.component');
+var hero_detail_component_1 = require('./hero-detail/hero-detail.component');
 var hero_service_1 = require('./hero.service');
 var app_routing_1 = require('./app.routing');
-var hero_search_component_1 = require('./hero-search.component');
+var hero_search_component_1 = require('./hero-search/hero-search.component');
 require('./rxjs-extensions');
 var AppModule = (function () {
     function AppModule() {
